@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Basty bet"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/nav_my_profile"
+            android:title="Menıƞ profilım"
+            android:icon="@drawable/user"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Baptaular"
+            android:icon="@drawable/settings"/>
+
+            <item
+                android:id="@+id/nav_share"
+                android:title="Bölısu"
+                android:icon="@drawable/share"/>
+            <item
+                android:id="@+id/nav_rate_us"
+                android:title="Bağalau"
+                android:icon="@drawable/star"/>
+
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="Biz turaly"
+            android:icon="@drawable/help"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Şyğu"
+            android:icon="@drawable/exit"/>
+
+    </group>
+</menu>

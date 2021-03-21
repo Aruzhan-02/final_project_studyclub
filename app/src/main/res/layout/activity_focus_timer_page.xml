@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FocusTimerPage">
+
+    <ImageView
+        android:id="@+id/bgcircle"
+        android:layout_width="256dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:src="@drawable/bgcircle2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icanchor"
+        android:layout_width="295dp"
+        android:layout_height="279dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/anchor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/gray"
+        android:fontFamily="@font/myriadpro_semibold"
+        android:hint="Minutes"
+        android:includeFontPadding="false"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textColor="@color/gray"
+        android:textColorHint="@color/gray"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgcircle" />
+
+    <Button
+        android:id="@+id/btn_set"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/myriadpro_semibold"
+        android:includeFontPadding="false"
+        android:text="Uaqyt belgіleu"
+        android:textAllCaps="false"
+        android:textColor="@color/gray"
+        android:textSize="20dp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgcircle" />
+
+    <TextView
+        android:id="@+id/tv_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="8dp"
+        android:text="00:00"
+        android:textColor="@color/gray"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgcircle" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_start"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/myriadpro_semibold"
+        android:includeFontPadding="false"
+        android:text="Bastau"
+        android:textAllCaps="false"
+        android:textColor="@color/gray"
+        android:textSize="20dp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_reset"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/myriadpro_semibold"
+        android:includeFontPadding="false"
+        android:text="Joiu"
+        android:textAllCaps="false"
+        android:textColor="@color/gray"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
